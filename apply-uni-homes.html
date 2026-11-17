@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apply Uni Homes — Student Accommodation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500&family=Newsreader:opsz,wght@12..72,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="apply-uni-homes.css" />
+</head>
+<body>
+  <div class="stage">
+    <div class="scene" aria-hidden="true">
+      <div class="plate"></div>
+      <video
+        class="scene-video"
+        src="https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/d41b8c1d-f175-43b3-af22-7081133aa8de.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+      ></video>
+      <div class="lighting" id="lighting">
+        <div class="bloom bloom--pink"></div>
+        <div class="bloom bloom--amber"></div>
+        <div class="bloom bloom--peri"></div>
+        <div class="sweep"></div>
+      </div>
+    </div>
+
+    <div class="scene ui">
+      <header class="ui-brand">
+        <h1 class="wordmark" data-entrance>Apply Uni Homes</h1>
+        <p class="subtitle" data-entrance>Student Accommodation</p>
+      </header>
+
+      <p class="episode-label" data-entrance>LISTEN TO THE LATEST EPISODE</p>
+
+      <div class="ui-player-zone">
+        <article class="player-card" data-entrance>
+          <div class="cover">
+            <span class="cover-wordmark">Apply Uni Homes</span>
+          </div>
+          <h2 class="episode-title">Why Cities Are Planting Forests<br />on Rooftops</h2>
+          <p class="episode-date">Apr 25 · Apply Uni Homes</p>
+          <div class="waveform" id="waveform" aria-hidden="true"></div>
+          <button type="button" class="play-btn" aria-label="Play episode"></button>
+        </article>
+      </div>
+
+      <div class="ui-lower">
+        <p class="about-label" data-entrance>ABOUT</p>
+        <p class="about-copy" data-entrance data-about-copy>
+          Every weekday morning, Apply Uni Homes brings you the stories worth carrying into your day: thoughtful updates on student housing, campus life, design-led residences, and the small details that help a city feel like home while you study.
+        </p>
+
+        <div class="platform-row" data-entrance>
+          <p class="platform-label">LISTEN ON YOUR FAVORITE PODCAST PLATFORM</p>
+          <div class="platform-icons">
+            <span class="platform-icon" aria-hidden="true" title="Podcast">
+              <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M8 11a4 4 0 0 0 8 0"/></svg>
+            </span>
+            <span class="platform-icon icon-fill" aria-hidden="true" title="Audio">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="8" y="9" width="1.5" height="6" rx="0.5" fill="currentColor"/><rect x="11" y="7" width="1.5" height="10" rx="0.5" fill="currentColor"/><rect x="14" y="10" width="1.5" height="4" rx="0.5" fill="currentColor"/></svg>
+            </span>
+            <span class="platform-icon" aria-hidden="true" title="Headphones">
+              <svg viewBox="0 0 24 24"><path d="M4 14v4a2 2 0 0 0 2 2h1"/><path d="M20 14v4a2 2 0 0 1-2 2h-1"/><path d="M4 10a8 8 0 0 1 16 0v4"/></svg>
+            </span>
+            <span class="platform-icon icon-fill" aria-hidden="true" title="Feed">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="8" y="8" width="2" height="8" rx="0.5"/><rect x="11.5" y="6" width="2" height="12" rx="0.5"/><rect x="15" y="10" width="2" height="6" rx="0.5"/></svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="apply-uni-homes.js" defer></script>
+</body>
+</html>
